@@ -1,0 +1,56 @@
+.SignUp {
+  box-shadow: 0 0 10px black;
+  padding: 4rem 4rem;
+  margin-top: 8rem;
+  width: 50%;
+  margin: auto;
+}
+
+.sing-flex{
+  margin-top: 8rem;
+}
+
+.SignUp h1 {
+  margin-bottom: 2rem;
+}
+
+.SignUp form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  /* width: 50%; */
+}
+
+.SignUp input {
+  height: 2.5rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.SignUp button {
+  margin-top: 2rem;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+}
+
+.SignUp button:hover{
+    background-color: white;
+    color: black !important;
+    box-shadow: 0 0 10px black;
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 850px) {
+  .SignUp {
+    padding: 4rem 2rem;
+  }
+  .SignUp form {
+    width: 90%;
+  }
+  .SignUp button {
+    display: inline;
+  }
+}
